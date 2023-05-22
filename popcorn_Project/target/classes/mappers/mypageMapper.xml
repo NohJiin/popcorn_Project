@@ -6,7 +6,7 @@
     
 	
     <!-- 회원의 모든 bbs list 페이징 서브쿼리 -->
-    <select id="myBbsAll" resultType="mypageVO" parameterType="pageVO">
+    <select id="myBbsAll" resultType="mypageVO" parameterType="MemberPageVO">
 	select * from (
 	select
 	row_number() over(order by member_id) as mybbs_no,
@@ -19,7 +19,7 @@
 	</select>
 	
 	<!-- 회원의 모든 review list 페이징 서브쿼리 -->
-	    <select id="myReviewAll" resultType="mypageVO" parameterType="pageVO">
+	    <select id="myReviewAll" resultType="mypageVO" parameterType="MemberPageVO">
 	select * from(
 	select
 	row_number() over(order by member_id) as mr_no,
