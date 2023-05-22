@@ -1,4 +1,4 @@
-package com.java4.popcron.mypage;
+package com.java4.popcorn.mypage;
 
 public class PageVO {
 	private int start;
