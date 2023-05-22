@@ -16,7 +16,7 @@
     <!--   </environments>-->
     <typeAliases>
         <!--노지인-->
-        <typeAlias type="com.java4.popcorn.rankUser.PageVO" alias="PageVO"/>
+        <typeAlias type="com.java4.popcorn.rankUser.PageVO" alias="RankPageVO"/>
         <typeAlias type="com.java4.popcorn.rankUser.RankUserVO" alias="RankUserVO"/>
         <typeAlias type="com.java4.popcorn.rankMovie.RankMovieVO" alias="RankMovieVO"/>
         <typeAlias type="com.java4.popcorn.rankActor.RankActorVO" alias="RankActorVO"/>
@@ -33,7 +33,7 @@
         <!--이시현-->
         <typeAlias type="com.java4.popcorn.member.MemberVO" alias="MemberVO"/>
 		<typeAlias type="com.java4.popcorn.mypage.MypageVO" alias="MypageVO"/>
-        <typeAlias type="com.java4.popcorn.mypage.PageVO" alias="PageVO"/>
+        <typeAlias type="com.java4.popcorn.mypage.PageVO" alias="MemberPageVO"/>
 
         <!--김준명-->
         <typeAlias type="com.java4.popcorn.movieInfo.MovieVO" alias="MovieVO"/>
